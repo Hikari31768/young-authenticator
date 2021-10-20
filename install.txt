@@ -1,1 +1,2 @@
+#由于验证码识别基于muggle_ocr模块，该模块目前只有阿里云镜像源才能安装成功。所以安装依赖命令如下
 pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt
