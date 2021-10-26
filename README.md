@@ -14,4 +14,4 @@
 3.模块化了代码<br>
 ## 安装教程
 首先，clone下这个仓库到本地
-```git clone https://github.com/smile31768/young-authenticator.git 
+```git clone https://github.com/smile31768/young-authenticator.git ```
