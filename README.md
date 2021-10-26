@@ -15,9 +15,10 @@
 ## 安装教程
 程序基于python3.8编写，请先安装好python
 
-1.clone下这个仓库到本地<br>
+1.Star本项目（划掉<br>
+2.clone下这个仓库到本地<br>
 ```git clone https://github.com/smile31768/young-authenticator.git ```<br>
-2.安装依赖模块<br>
+3.安装依赖模块<br>
 ```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```<br>
-3.使用notepad打开run.py按照提示修改认证信息<br>
-4.双击run.py
+4.使用notepad打开run.py按照提示修改认证信息<br>
+5.双击run.py
