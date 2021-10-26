@@ -9,17 +9,18 @@
 ### 2021.10.20
 初版，能跑就行
 ### 2021.10.26
-1. 增加了网络连通性判断<br>
-2. 增加了运行失败后自动重试的功能<br>
-3. 模块化了代码<br>
+1. 增加了网络连通性判断
+2. 增加了运行失败后自动重试的功能
+3. 模块化了代码
 ## 安装教程
 程序基于python3.8编写，请先安装好python
 
-1. Star本项目（划掉<br>
-2. clone下这个仓库到本地<br>
-```git clone https://github.com/smile31768/young-authenticator.git ```<br>
+1. Star本项目（划掉
+2. clone下这个仓库到本地
+```git clone https://github.com/smile31768/young-authenticator.git ```
 3. 安装依赖模块<br>
-```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```<br>
-4. 使用notepad打开run.py按照提示修改认证信息<br>
+```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```
+4. 使用notepad打开run.py按照提示修改认证信息
 5. 双击run.py
-6. 你或许可以把这玩意加入定时任务，每五分钟运行一次，杜绝断网（具体定时任务设定方法不同系统不一样，请自行参照百度
+6. 你或许可以把这玩意加入定时任务，每五分钟运行一次，杜绝断网<br>
+```具体定时任务设定方法不同系统不一样，请自行参照百度```
