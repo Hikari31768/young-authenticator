@@ -12,3 +12,6 @@
 1.增加了网络连通性判断<br>
 2.增加了运行失败后自动重试的功能<br>
 3.模块化了代码<br>
+## 安装教程
+首先，clone下这个仓库到本地
+```git clone https://github.com/smile31768/young-authenticator.git 
