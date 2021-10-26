@@ -22,3 +22,4 @@
 ```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```<br>
 4. 使用notepad打开run.py按照提示修改认证信息<br>
 5. 双击run.py
+6. 你或许可以把这玩意加入定时任务，每五分钟运行一次，杜绝断网（
