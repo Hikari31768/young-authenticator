@@ -16,7 +16,7 @@
 程序基于python3.8编写，请先安装好python
 
 1. Star本项目（划掉
-2. clone下这个仓库到本地
+2. clone下这个仓库到本地<br>
 ```git clone https://github.com/smile31768/young-authenticator.git ```
 3. 安装依赖模块<br>
 ```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```
