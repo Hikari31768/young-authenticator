@@ -13,5 +13,11 @@
 2.增加了运行失败后自动重试的功能<br>
 3.模块化了代码<br>
 ## 安装教程
-首先，clone下这个仓库到本地
-```git clone https://github.com/smile31768/young-authenticator.git ```
+程序基于python3.8编写，请先安装好python
+
+1.clone下这个仓库到本地<br>
+```git clone https://github.com/smile31768/young-authenticator.git ```<br>
+2.安装依赖模块<br>
+```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```<br>
+3.使用notepad打开run.py按照提示修改认证信息<br>
+4.双击run.py
