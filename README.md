@@ -20,7 +20,7 @@
 ```git clone https://github.com/smile31768/young-authenticator.git ```
 3. 安装依赖模块<br>
 ```pip install -i https://mirrors.aliyun.com/pypi/simple -r requirements.txt```
-4. 配置好chromedriver[参考教程]<https://www.jianshu.com/p/ffcb62574050>
+4. 配置好chromedriver[参考教程](https://www.jianshu.com/p/ffcb62574050)
 4. 使用notepad打开run.py按照提示修改认证信息
 5. 双击run.py
 6. 你或许可以把这玩意加入定时任务，每五分钟运行一次，杜绝断网<br>
