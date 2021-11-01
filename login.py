@@ -8,12 +8,17 @@ def login( username, password, portal_url):
     UA = 'Mozilla/5.0 (Linux; Android 4.1.1; GT-N7100 Build/JRO03C) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/35.0.1916.138 Mobile Safari/537.36 T7/6.3'
     mobileEmulation = {"deviceMetrics": {"width": WIDTH, "height": HEIGHT, "pixelRatio": PIXEL_RATIO}, "userAgent": UA}
 
-    # 填入用户名和密码
+    # 实例化chrome
     options = webdriver.ChromeOptions()
-    options.add_experimental_option('mobileEmulation', mobileEmulation)
+    options.add_experimental_option('mobileEmulation', mobileEmulation)     # 模拟手机登录，如不想模拟手机可以注释掉这行
     options.add_argument('--headless')
     browser = webdriver.Chrome(chrome_options=options)
     browser.get(portal_url)
+    # 设置超时时间
+    browser.set_page_load_timeout(5)
+    browser.set_script_timeout(5)
+    browser.implicitly_wait(5)
+    # 填入用户名和密码
     time.sleep(1)
     browser.find_element_by_id("username").send_keys(username)
     browser.find_element_by_id("password").send_keys(password)
